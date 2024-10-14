@@ -1,0 +1,214 @@
+.numbers{
+    background-color: #a82d49;
+    padding: 25px 0; 
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+
+}
+.numbers .row{
+    margin:10px  0px;
+}
+.numbers h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #fff;
+    font-family:'tajwal' ;
+} 
+.numbers h6{
+    text-transform: uppercase;
+    color: #fff;
+    font-family:'tajwal' ;
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+.prode,
+.ingredients{
+    background-color : transparent;
+    padding: 25px 0; 
+    max-width: 100%;
+    height: auto;
+    overflow: hidden; 
+    margin-top:60px;
+}
+.prode img
+{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.prode h2,
+.ingredients h2,
+.paralex h2
+{
+    font-size: 35px;
+    width: 80%;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #a82d49;
+    font-family:'Tajwal' ; 
+ line-height: 4rem;
+}
+.prode p,
+.ingredients p,
+.paralex p
+{
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;  
+  font-family:'Tajwal' ; 
+  margin-top: 20;
+}
+.prode button,
+.ingredients button{
+ background-color: #a82d49;
+ border: 1px solid #a82d49;
+ box-sizing: border-box;
+ width: 140px;  
+ height: 40px; 
+ text-align: center;
+ margin-top: 20px;
+ transition: .2s ease ;
+}
+.prode button a ,
+.ingredients button a {
+   display: block;
+   color: #fff;
+   font-family:'Tajwal' ; 
+   text-decoration: none !important;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.prode button:hover  a,
+.ingredients button:hover{
+    color:#a82d49 ;
+  
+}
+.prode button:hover,
+.ingredients button:hover {
+    background-color: #fff;
+}
+
+.ingredients ul{
+    padding: 0;
+}
+
+.ingredients ul li{
+   list-style-type: square;
+   font-family: 'Tajawal';
+   color: #333; 
+   margin-top: 10px;
+}
+.ingredients img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.paralex{
+    background: url(../../img/1.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    text-align: center;
+}
+.paralex .row{
+    margin: 50px 0;
+}
+.paralex h2{
+    width: 100%;
+    margin: 20px 0;line-height: 32px;
+}
+.paralex a{
+   color: #a82d49;
+   font-size: 20px;
+   margin: 20px 0;
+   font-family: 'Tajawal';
+   text-decoration: none !important;
+}
+.blogs{
+    margin-top: 50px;
+    padding: 25px 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.blogs .row:first-child{
+    text-align: center;
+    margin:  25px 0;
+}
+.blogs h2 {
+    text-align: center;
+    font-size: 45px;
+    width: 100%;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #a82d49;
+    font-family:'Tajwal' ; 
+ line-height: 4rem;  
+}
+.blogs p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;  
+    font-family:'Tajwal' ; 
+    margin-top: 20; 
+}
+.blogs .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    margin-top:10px ;
+    border-radius: 5px;
+}
+.blogs .box img {
+    max-width: 100%;
+}
+.blogs .box h5{
+    color: #a82d49;
+    font-family: 'Tajawal';
+    font-size: 22px;
+    margin: 15px 0;
+}
+.blogs .box span{
+    display: block;
+    color: #333;
+    font-family:'Tajwal' ;
+    font-size: 16px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing:0.5px ;
+}
+.blogs .box h6{
+    color: #a82d49;
+    font-size: 22px;
+    font-family: 'Tajwal' ;
+}
+.blogs .box button{
+    background-color: #a82d49;
+    border: 3px solid #a82d49;
+    box-sizing: border-box;
+    width: 140px;  
+    height: 40px; 
+    text-align: center;
+    margin-top: 20px;
+    transition: .2s ease ;
+}
+.blogs .box button:hover{
+    color:#a82d49 ;
+}
+.blogs .box button:hover{
+    background-color: #fff;
+}
+.slider img {
+    max-width: 100%;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    height: 500px;
+}
