@@ -9,9 +9,6 @@ import user1 from '../../img/1 (1).jpg';
 import user2 from '../../img/2.jpg'
 
  function Home() {
-
-
-
   const blogitme =Data.map(itme =>{
     return(
       <div className='col-md-4'>
